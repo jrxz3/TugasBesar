@@ -6,6 +6,8 @@ public class KeamananKlas extends Ruang {
     
     Scanner in = new Scanner(System.in);
     
+    @Override
+    
     public void KeamananKls(){
         System.out.println("Masukan Kondisi Kekokohan Bangunan Ruang Kelas : ");
         System.out.println("\n1.Kuat \n2.Tidak Kuat");
