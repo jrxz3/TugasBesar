@@ -51,6 +51,19 @@ public class Ruang {
     private int KunciJendela;
     private int Bahaya;
 
+    void setIdentitas(String NamaRuang, String LokasiRuang, String Fakultas, String Studi){
+        this.NamaRuang = NamaRuang;
+        this.LokasiRuang = LokasiRuang;
+        this.Fakultas = Fakultas;
+        this.Studi = Studi;
+    }
+    
+    void setIdentitas(String NamaRuang, String LokasiRuang){
+        this.NamaRuang = NamaRuang;
+        this.LokasiRuang = LokasiRuang;
+    }
+
+
     public void setNamaRuang(String NamaRuang) {
         this.NamaRuang = NamaRuang;
     }
@@ -433,6 +446,30 @@ public class Ruang {
 
     public int getBahaya() {
         return Bahaya;
+    }
+    
+    public void KondisiKlas(){
+        
+    }
+    
+    public void KondisiSarana(){
+        
+    }
+    
+    public void LingkunganKlas(){
+        
+    }
+    
+    public void KebersihanKlas(){
+        
+    }
+    
+    public void KenyamananKlas(){
+        
+    }
+    
+    public void KeamananKlas(){
+        
     }
 
 }
