@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class KondisiSarana extends Ruang {
 
     Scanner in = new Scanner(System.in);
-
+    
+    @Override
     public void KondisiSarana() {
         //Stop Kontak
 
