@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class KondisiKlas extends Ruang {
 
     Scanner in = new Scanner(System.in);
-    //Ruang ruang = new Ruang();
-
-    public void DataRuang() {
+  
+    /**
+     *
+     */
+    @Override
+    public void KondisiKlas() {
         System.out.println("Data Ruang Kelas");
         System.out.println("Masukan Panjang Ruang = ");
         super.setPanjang(in.nextInt());
