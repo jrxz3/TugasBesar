@@ -1,12 +1,15 @@
-
-
 package tugas.besar.java;
 
 import java.util.Scanner;
 
-public class KebersihanKlas {
+public class KebersihanKlas extends Ruang {
     Scanner in = new Scanner(System.in);
-    public void KebersihanKls(){
+    
+    /**
+     *
+     */
+    @Override
+    public void KebersihanKlas(){
     System.out.println("Sirkulasi udara = ");
         super.setSirkulasiUdara(in.nextInt());
         System.out.println("\n");
