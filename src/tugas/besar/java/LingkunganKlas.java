@@ -6,7 +6,8 @@ public class LingkunganKlas extends Ruang {
     
     Scanner in = new Scanner(System.in);
     
-    public void LingkunganKelas(){
+    @Override
+    public void LingkunganKlas(){
         System.out.println("Masukan Kondisi Lantai Kelas : ");
         System.out.println("\n1. Bersih \n2. Kotor");
         super.setKondisiLantai(in.nextInt());
