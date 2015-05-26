@@ -2,7 +2,13 @@ package tugas.besar.java;
 
 import java.util.Scanner;
 
-public class KenyamananKlas {
+public class KenyamananKlas extends Ruang {
+    Scanner in = new Scanner(System.in);
+
+    /**
+     *
+     */
+    @Override
     public void KenyamananKlas() {
         System.out.println("Kondisi Kebisingan : ");
         System.out.println("\n1. tidak bising \n2. bising");
@@ -56,4 +62,5 @@ public class KenyamananKlas {
 		else
 			return("Tingkat Keausan = tidak sesuai");
 	}
+    
 }
