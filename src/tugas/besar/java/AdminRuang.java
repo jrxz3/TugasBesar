@@ -8,17 +8,8 @@ public class AdminRuang extends Ruang {
     //Ruang ruang = new Ruang();
 
     public void InsertData() {
-        System.out.println("Input Data");
-        System.out.println("Masukan Nama Ruangan = ");
-        super.setNamaRuang(in.next());
-        System.out.println("\n");
-        System.out.println("Masukan Lokasi Ruangan = ");
-        super.setLokasiRuang(in.next());
-        System.out.println("\n");
-        System.out.println("Pilih Program Studi Anda = ");
-        super.setStudi(in.next());
-        System.out.println("\n");
-        System.out.println("Pilih Fakultas Anda = ");
-        super.setFakultas("\n");
+        System.out.println("Masukkan Identitas : (Nama Ruangan, Lokasi Ruangan, Fakultas, Studi)");
+		super.setIdentitas(in.next(), in.next(), in.next(), in.next());
     }
+        
 }
