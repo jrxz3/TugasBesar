@@ -1,0 +1,84 @@
+package tugas.besar.java;
+
+/**
+ *
+ * @author Jrx Acer
+ */
+public class Tampil extends Ruang {
+    public void ListInputan(){
+		
+		System.out.println(""+super.getNamaRuang());
+		System.out.println(""+super.getLokasiRuang());
+		System.out.println(""+super.getStudi());
+		System.out.println(""+super.getPanjang());
+		System.out.println(""+super.getLebar());
+		KondisiKlas a = new KondisiKlas();
+		System.out.println(" Hasil = "+a.HitungLuas());
+		System.out.println(""+a.BentukRuang());
+		System.out.println(""+super.getJumlahKursi());
+		System.out.println("luas rasio = "+a.RasioLuas());
+		System.out.println(""+super.getJumlahPintu());
+		System.out.println(""+super.getJumlahJendela());
+		System.out.println(""+a.AnalisisPintu());
+		System.out.println(""+a.AnalisisJendela());
+		System.out.println(""+super.getJumlahStopKontak());
+		System.out.println(""+super.getKondisiStopKontak());
+		System.out.println(""+super.getPosisiStopKontak());
+		KondisiSarana b = new KondisiSarana();
+		System.out.println(""+b.AnalisisKelistrikan());
+		System.out.println(""+super.getJumlahKabelLcd());
+		System.out.println(""+super.getKondisiKabelLcd());
+		System.out.println(""+super.getPosisiKabelLcd());
+		System.out.println(""+b.AnalisisLCD());
+		System.out.println(""+super.getJumlahLampu());
+		System.out.println(""+super.getKondisiLampu());
+		System.out.println(""+super.getPosisiLampu());
+		System.out.println(""+b.AnalisisLampu());
+		System.out.println(""+super.getJumlahKipasAngin());
+		System.out.println(""+super.getKondisiKipasAngin());
+		System.out.println(""+super.getPosisiKipasAngin());
+		System.out.println(""+b.AnalisisKipas());
+		System.out.println(""+super.getJumlahAC());
+		System.out.println(""+super.getKondisiAC());
+		System.out.println(""+super.getPosisiAC());
+		System.out.println(""+b.AnalisisAC());
+		System.out.println(""+super.getSSID());
+		System.out.println(""+super.getBandwidth());
+		System.out.println(""+b.AnalisisInternet());
+		System.out.println(""+super.getJumlahCCTV());
+		System.out.println(""+super.getKondisiCCTV());
+		System.out.println(""+super.getPosisiCCTV());
+		System.out.println(""+b.AnalisisCCTV());
+		System.out.println(""+super.getKondisiLantai());
+		System.out.println(""+super.getKondisiDinding());
+		System.out.println(""+super.getKondisiAtap());
+		System.out.println(""+super.getKondisiPintu());
+		System.out.println(""+super.getKondisiJendela());
+		LingkunganKlas c = new LingkunganKlas();
+		System.out.println(""+c.AnalisisKebersihan());
+		System.out.println(""+super.getSirkulasiUdara());
+		KebersihanKlas d = new KebersihanKlas();
+		System.out.println(""+d.AnalisisPencahayaan());
+		System.out.println(""+d.AnalisisKelembapan());
+		System.out.println(""+d.AnalisisSuhu());
+		KenyamananKlas e = new KenyamananKlas();
+		System.out.println(""+e.AnalisisKebisingan());
+		System.out.println(""+super.getBau());
+		System.out.println(""+e.AnalisisBau());
+		System.out.println(""+super.getKebocoran());
+		System.out.println(""+e.AnalisisKebocoran());
+		System.out.println(""+super.getKerusakan());
+		System.out.println(""+e.AnalisisKerusakan());
+		System.out.println(""+super.getKeausan());
+		System.out.println(""+e.AnalisisKeausan());
+		System.out.println(""+super.getKekokohan());
+		KeamananKlas f = new KeamananKlas();
+		System.out.println(""+f.AnalisisKekokohan());
+		System.out.println(""+super.getKunciPintu());
+		System.out.println(""+f.AnalisisKunciPintu());
+		System.out.println(""+super.getKunciJendela());
+		System.out.println(""+f.AnalisisKunciJendela());
+		System.out.println(""+super.getBahaya());
+		System.out.println(""+f.AnalisisKeamananRuang());
+	}
+}
