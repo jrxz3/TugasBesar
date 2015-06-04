@@ -6,9 +6,6 @@ public class KondisiKlas extends Ruang {
 
     Scanner in = new Scanner(System.in);
   
-    /**
-     *
-     */
     @Override
     public void KondisiKlas() {
         System.out.println("Data Ruang Kelas");
