@@ -51,6 +51,13 @@ public class Ruang {
     private int KunciJendela;
     private int Bahaya;
 
+ public Ruang (String NamaRuang, String LokasiRuang, String Studi, String Fakultas){
+           this.NamaRuang = NamaRuang;
+           this.LokasiRuang = LokasiRuang;
+           this.Studi = Studi;
+           this.Fakultas = Fakultas;
+ }
+
     void setIdentitas(String NamaRuang, String LokasiRuang, String Fakultas, String Studi){
         this.NamaRuang = NamaRuang;
         this.LokasiRuang = LokasiRuang;
