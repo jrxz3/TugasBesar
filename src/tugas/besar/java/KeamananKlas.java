@@ -21,7 +21,7 @@ public class KeamananKlas extends Ruang {
         System.out.println("\n1.Rusak \n2.Tidak Rusak");
         super.setKunciJendela(in.nextInt());
         System.out.println("\n");
-        System.out.println("Masukan Kondisi Bahata Ruang Kelas : ");
+        System.out.println("Masukan Kondisi Bahaya Ruang Kelas : ");
         System.out.println("\n1.Bahaya \n2.Tidak Bahaya");
         super.setBahaya(in.nextInt());
         System.out.println("\n");
