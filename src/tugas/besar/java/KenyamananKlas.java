@@ -5,38 +5,29 @@ import java.util.Scanner;
 public class KenyamananKlas extends Ruang {
     Scanner in = new Scanner(System.in);
 
-    /**
-     *
-     */
     @Override
     public void KenyamananKlas() {
         System.out.println("Kondisi Kebisingan : ");
-        System.out.println("\n1. tidak bising \n2. bising");
-	super.setKebisingan(in.nextInt());
-	System.out.println("\n");
-	System.out.println("kondisi bau ruangan : ");
-        System.out.println("\n1. tidak bau \n2. bau");
+        System.out.println("\n1. Tidak bising \n2. Bising");
+	System.out.println("Kondisi Bau Ruangan : ");
+        System.out.println("\n1. Tidak bau \n2. Bau");
 	super.setBau(in.nextInt());
-	System.out.println("\n");
 	System.out.println("Kondisi Kebocoran ruangan : ");
-        System.out.println("\n1. tidak bocor \n2. bocor");
-	super.setKebocoran(in.nextInt());
-	System.out.println("\n");
+        System.out.println("\n1. Tidak bocor \n2. Bocor");
+        super.setKebocoran(in.nextInt());
 	System.out.println("Konsisi kerusakan ruangan : ");
-        System.out.println("\n1. tidak rusak \n2. rusak");
+        System.out.println("\n1. Tidak rusak \n2. Rusak");
 	super.setKerusakan(in.nextInt());
-	System.out.println("\n");
 	System.out.println("Kondisi Keausan Ruangan : ");
-        System.out.println("\n1.tidak aus \n2. sudah aus");
+        System.out.println("\n1. Tidak aus \n2. Sudah aus");
 	super.setKeausan(in.nextInt());
-	System.out.println("\n");
 	}
 
 	public String AnalisisKebisingan(){
 		if(super.getKebisingan()==1)
 			return("Tingkat Kebisingan = Sesuai");
 		else
-			return("Tingkat Kebisingan = tidak sesuai");
+			return("Tingkat Kebisingan = Tidak Sesuai");
 	}
 	public String AnalisisBau(){
 		if(super.getBau()==1)
@@ -48,19 +39,19 @@ public class KenyamananKlas extends Ruang {
 		if(super.getKebocoran()==1)
 			return("Tingkat Kebocoran = Sesuai");
 		else
-			return("Tingkat Kebocoran = tidak sesuai");
+			return("Tingkat Kebocoran = Tidak Sesuai");
 	}
 	public String AnalisisKerusakan(){
 		if(super.getKerusakan()==1)
 			return("Tingkat Kerusakan = Sesuai");
 		else
-			return("Tingkat Kerusakan = tidak sesuai");
+			return("Tingkat Kerusakan = Tidak Sesuai");
 	}
 	public String AnalisisKeausan(){
 		if(super.getKeausan()==1)
 			return("Tingkat Keausan = Sesuai");
 		else
-			return("Tingkat Keausan = tidak sesuai");
+			return("Tingkat Keausan = Tidak Sesuai");
 	}
     
 }
