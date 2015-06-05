@@ -11,19 +11,14 @@ public class KondisiKlas extends Ruang {
         System.out.println("Data Ruang Kelas");
         System.out.println("Masukan Panjang Ruang = ");
         super.setPanjang(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Lebar Ruang = ");
         super.setLebar(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Jumlah Kursi = ");
         super.setJumlahKursi(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Jumlah Pintu = ");
         super.setJumlahPintu(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Jumlah Jendela = ");
         super.setJumlahJendela(in.nextInt());
-        System.out.println("\n");
     }
 
     public double HitungLuas() {
