@@ -12,19 +12,15 @@ public class KeamananKlas extends Ruang {
         System.out.println("Masukan Kondisi Kekokohan Bangunan Ruang Kelas : ");
         System.out.println("\n1.Kuat \n2.Tidak Kuat");
         super.setKekokohan(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Kondisi Kunci Pintu Ruang Kelas : ");
         System.out.println("\n1.Rusak \n2.Tidak Rusak");
         super.setKunciPintu(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Kondisi Kunci Jendela Ruang Kelas : ");
         System.out.println("\n1.Rusak \n2.Tidak Rusak");
         super.setKunciJendela(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Kondisi Bahaya Ruang Kelas : ");
         System.out.println("\n1.Bahaya \n2.Tidak Bahaya");
         super.setBahaya(in.nextInt());
-        System.out.println("\n");
     }
     
     public String AnalisisKekokohan(){
