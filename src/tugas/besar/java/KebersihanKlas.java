@@ -4,24 +4,17 @@ import java.util.Scanner;
 
 public class KebersihanKlas extends Ruang {
     Scanner in = new Scanner(System.in);
-    
-    /**
-     *
-     */
+   
     @Override
     public void KebersihanKlas(){
     System.out.println("Sirkulasi udara = ");
         super.setSirkulasiUdara(in.nextInt());
-        System.out.println("\n");
         System.out.println("Nilai Pencahayaan = ");
         super.setNilaiPencahayaan(in.nextInt());
-        System.out.println("\n");
         System.out.println("Kelembapan = ");
         super.setKelembapan(in.nextInt());
-        System.out.println("\n");
         System.out.println("Suhu = ");
         super.setSuhu(in.nextInt());
-        System.out.println("\n");
     }
     public String AnalisisSirkulasiUdara(){
 		if(super.getSirkulasiUdara()==1)
