@@ -9,95 +9,74 @@ public class KondisiSarana extends Ruang {
     @Override
     public void KondisiSarana() {
         //Stop Kontak
-
         System.out.println("Masukan Jumlah Stop Kontak : ");
         super.setJumlahStopKontak(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Kondisi Stop Kontak : ");
         System.out.println("\n1. Baik \n2. Sebagian Rusak \n3. Semua Rusak \n4. Tidak Ada ");
         super.setKondisiStopKontak(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Posisi Stop Kontak : ");
         System.out.println("\n1. Pojok Ruang \n2. Pojok Dekat Dosen \n3. Belakang ");
         super.setPosisiStopKontak(in.nextInt());
-        System.out.println("/n");
 
         //LCD
         System.out.println("Masukan Jumlah Kabel LCD : ");
         super.setJumlahKabelLcd(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Kondisi Kabel LCD : ");
         System.out.println("\n1. Berfungsi \n2. Tidak Berfungsi \n3. Tidak Ada ");
         super.setKondisiKabelLcd(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Posisi Kabel LCD : ");
         System.out.println("\n1. Dekat Meja Dosen \n2. Dekat Kursi Mahasiswa ");
         super.setPosisiKabelLcd(in.nextInt());
-        System.out.println("/n");
 
         //Lampu
         System.out.println("Masukan Jumlah Lampu : ");
         super.setJumlahLampu(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Kondisi Lampu : ");
-        System.out.println("\n1. Berfungsi \n2. Menyalan Sebagian \n3. Rusak Semua ");
+        System.out.println("\n1. Berfungsi \n2. Menyala Sebagian \n3. Rusak Semua ");
         super.setKondisiLampu(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Posisi Lampu : ");
         System.out.println("\n1. Atap Kelas \n2. Dekat Meja Dosen ");
         super.setPosisiLampu(in.nextInt());
-        System.out.println("/n");
 
         //Kipas Angin
         System.out.println("Masukan Jumlah Kipas Angin : ");
         super.setJumlahKipasAngin(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Kondisi Kipas Angin : ");
         System.out.println("/n1. Berfungsi Normal \n2. Sebagian Rusak \n3. Rusak Semua ");
         super.setKondisiKipasAngin(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Posisi Kipas Angin : ");
         System.out.println("/n1. Atap \n2. Dinding ");
         super.setPosisiKipasAngin(in.nextInt());
-        System.out.println("/n");
 
         //AC
         System.out.println("Masukan Jumlah AC : ");
         super.setJumlahAC(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Kondisi AC : ");
         System.out.println("\n1. Baik \n2. Sebagian Rusak \n3. Semua Rusak \n4. Tidak Ada ");
         super.setKondisiAC(in.nextInt());
-        System.out.println("/n");
         System.out.println("Masukan Posisi AC : ");
-        System.out.println("/n1. Depan \n2. Belakang \n3. Samping");
+        System.out.println("/n1. Depan \n2. Belakang \n3. Samping ");
         super.setPosisiAC(in.nextInt());
-        System.out.println("/n");
 
         //SSID dan Bandwidth 
         System.out.println("Pilih SSID yang di gunakan : ");
         System.out.println("\n1. UMM Hotspot \n2. Lab informatika");
         super.setSSID(in.nextInt());
-        System.out.println("\n");
         System.out.println("Apakah Anda Dapat Login Hotspot ? ");
         System.out.println("\n1. Ya \n2. Tidak");
         super.setLogin(in.nextInt());
-        System.out.println("Masukkan jumlah Bandwidth : ");
+        System.out.println("Masukkan Jumlah Bandwidth : ");
         super.setBandwidth(in.nextInt());
-        System.out.println("\n");
 
         //CCTV
-        System.out.println("Masukkan jumlah CCTV diruangan : ");
+        System.out.println("Masukkan jumlah CCTV Di Ruangan : ");
         super.setJumlahCCTV(in.nextInt());
-        System.out.println("\n");
-        System.out.println("Masukan kondisi CCTV diruangan : ");
-        System.out.println("\n1. baik \n2. rusak sebagian \n3.rusak semua \n4. tidak ada");
+        System.out.println("Masukan Kondisi CCTV Di Ruangan : ");
+        System.out.println("\n1. Baik \n2. Rusak sebagian \n3. Rusak semua \n4. Tidak ada ");
         super.setKondisiCCTV(in.nextInt());
-        System.out.println("\n");
         System.out.println("Masukan Posisi CCTV : ");
-        System.out.println("n1. depan \n2. samping \n3. belakangan \n4. tidak ada");
+        System.out.println("\n1. Depan \n2. Samping \n3. Belakang \n4. Tidak ada ");
         super.setPosisiCCTV(in.nextInt());
-        System.out.println("\n");
     }
  
     public String AnalisisKelistrikan() {
