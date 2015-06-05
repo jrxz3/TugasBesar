@@ -8,7 +8,7 @@ public class KeamananKlas extends Ruang {
     
     @Override
     
-    public void KeamananKls(){
+    public void KeamananKlas(){
         System.out.println("Masukan Kondisi Kekokohan Bangunan Ruang Kelas : ");
         System.out.println("\n1.Kuat \n2.Tidak Kuat");
         super.setKekokohan(in.nextInt());
